@@ -1,0 +1,15 @@
+cmd: python src/get_data.py
+deps:
+- path: params.yaml
+  hash: md5
+  md5: 60b822d57552bc0bb9149cc6e24e7c12
+  size: 127
+- path: src/get_data.py
+  hash: md5
+  md5: 7714975fc80e7613f73461ddf3026d26
+  size: 586
+outs:
+- path: data/raw/tips.csv
+  hash: md5
+  md5: b8e189917e1e12e5e34247f90db7834f
+  size: 7943

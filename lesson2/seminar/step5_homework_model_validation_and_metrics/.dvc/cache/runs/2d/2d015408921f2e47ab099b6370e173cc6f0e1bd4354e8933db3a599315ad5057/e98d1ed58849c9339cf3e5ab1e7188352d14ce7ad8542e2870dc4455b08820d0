@@ -1,0 +1,15 @@
+cmd: python src/preprocess.py
+deps:
+- path: data/raw/tips.csv
+  hash: md5
+  md5: b8e189917e1e12e5e34247f90db7834f
+  size: 7943
+- path: src/preprocess.py
+  hash: md5
+  md5: 03d81771a2d12a69c9a94beebc115c38
+  size: 390
+outs:
+- path: data/processed/dataset.csv
+  hash: md5
+  md5: be0a9ea5bab4ecf7a37d8cad670dd2b4
+  size: 3365
